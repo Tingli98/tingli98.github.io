@@ -503,3 +503,16 @@ strong {
 .publications-header h2 { flex: 1; }
 
 b { font-weight: 600; }
+
+/* Full year ranges: wider date column, never wrap */
+.exp-year, .award-year {
+  flex: 0 0 150px;
+  white-space: nowrap;
+  padding-right: 1rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .exp-item, .award-item { flex-direction: column; margin-bottom: 1rem; }
+  .exp-year, .award-year { flex: none; font-size: 0.9rem; }
+}
