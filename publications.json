@@ -1,0 +1,15 @@
+{
+  "publications": [
+    {
+      "title": "Distill: Uncovering the True Intent behind Human-Robot Communication",
+      "authors": ["Ting Li", "David Porfirio"],
+      "venue": "ACM Designing Interactive Systems Conference (DIS 2026)",
+      "selected": 1,
+      "award": "",
+      "links": {
+        "pdf": "https://arxiv.org/abs/2605.14262",
+        "doi": "https://doi.org/10.1145/3800645.3813000"
+      }
+    }
+  ]
+}
