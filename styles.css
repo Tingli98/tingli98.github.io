@@ -501,3 +501,5 @@ strong {
 }
 
 .publications-header h2 { flex: 1; }
+
+b { font-weight: 600; }
